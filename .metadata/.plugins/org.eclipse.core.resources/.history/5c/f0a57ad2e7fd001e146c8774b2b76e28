@@ -1,0 +1,13 @@
+package com.posso.microservicio.eureka;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MIcroservicioEurekaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MIcroservicioEurekaApplication.class, args);
+	}
+
+}

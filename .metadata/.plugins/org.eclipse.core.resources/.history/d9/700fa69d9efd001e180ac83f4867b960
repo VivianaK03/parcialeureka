@@ -1,0 +1,5 @@
+package com.posso.usuarios.entity;
+
+public class Alumno {
+
+}

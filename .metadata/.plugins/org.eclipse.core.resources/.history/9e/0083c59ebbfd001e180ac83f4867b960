@@ -1,0 +1,5 @@
+package com.posso.usuarios.repository;
+
+public interface AlumnoRepository {
+
+}

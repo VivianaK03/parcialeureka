@@ -1,0 +1,14 @@
+package com.posso.usuario;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@EnableDiscoveryClient
+@SpringBootApplication
+public class PrimerEjemploDeServicio1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PrimerEjemploDeServicio1Application.class, args);
+	}
+
+}

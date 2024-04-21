@@ -1,0 +1,8 @@
+spring.application.name=PrimerEjemploDeServicio-1
+
+spring.datasource.url=
+spring.datasource.username=postgress
+spring.datasource.password=root
+spring.jpa.properties.hibernate.dialect=
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true

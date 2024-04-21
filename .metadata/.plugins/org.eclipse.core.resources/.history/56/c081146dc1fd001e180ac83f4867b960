@@ -1,0 +1,31 @@
+package com.posso.usuarios.service;
+
+import java.util.Optional;
+
+import com.posso.usuarios.entity.Alumno;
+
+import jakarta.transaction.Transactional;
+
+public class AlumnoServiceImpl implements AlumnoService {
+	
+	@Override
+	@Transactional(readOnly = true)
+	public Iterable<Alumno> findAll(){
+		//TODO Auto-generated method stub
+		return null;
+	}
+	
+	@Override
+	@Transactional(readOnly = true)
+	public Optional<Alumno> findById(Long id){
+		//TODO Auto-generated method stub
+		return Optional.empty();
+		
+	}
+	
+	@Override
+	@Transactional
+	public void deleteById(Long id) {
+		//TODO Auto-generated method stub
+	}
+}
